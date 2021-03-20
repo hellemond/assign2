@@ -79,9 +79,11 @@ div.slideopen{
 
 
 section{
+    background: #f2e9de;
     grid-column: 1;
     grid-row: 2;
-    text-align: left;    
+    text-align: center;
+    margin-right: 30px;  
 }
 ul.notes{
     display: inline-block;
@@ -128,3 +130,4 @@ label {
     padding-left: 0cm;
     font-size: 6mm;
 }
+
