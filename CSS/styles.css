@@ -27,7 +27,7 @@ div{
 
 
 div.slide{
-    grid-column: 1;
+    grid-column: 2;
 }
 .slidemenu{
     background-color: #d7827e;
@@ -63,4 +63,30 @@ footer{
     background-color: #ea9a97;
     color: #232136;
     text-align: center;
+}
+
+
+/* Start of changes from index to note */
+
+div.slideopen{
+    grid-column: 2;
+}
+.slidemenuopen{
+    background-color: #d7827e;
+    border-radius: 40px;
+}
+
+section{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+    
+}
+
+ul.notes{
+    display: inline-block;
+}
+
+.notes > li {
+    margin-top: 10px;
 }
