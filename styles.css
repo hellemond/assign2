@@ -15,8 +15,18 @@ div{
     grid-column: 2;
 }
 
+.createnotebutton{
+    background-color: #d7827e;
+    border-radius: 40px;
+}
+
 div.slide{
     grid-column: 1;
+}
+
+.slidemenu{
+    background-color: #d7827e;
+    border-radius: 40px;
 }
 
 ul{
