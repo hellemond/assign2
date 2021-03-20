@@ -76,17 +76,55 @@ div.slideopen{
     border-radius: 40px;
 }
 
+
+
 section{
     grid-column: 1;
     grid-row: 2;
-    text-align: left;
-    
+    text-align: left;    
 }
-
 ul.notes{
     display: inline-block;
 }
-
 .notes > li {
     margin-top: 10px;
+}
+
+
+
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+    grid-row: 3;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+.savedel{
+    margin-right: 10px;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.savedel > ul {
+    display: inline-block;
+    margin-top: 2cm;
+    padding-left: 0cm;
+    font-size: 6mm;
 }
