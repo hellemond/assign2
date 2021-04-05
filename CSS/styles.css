@@ -114,19 +114,7 @@ label {
 }
 
 
-.savedel{
-    margin-right: 10px;
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    grid-column: 3;
-    grid-row: 3;
-}
 
-.savedel > ul {
-    display: inline-block;
-    margin-top: 2cm;
-    padding-left: 0cm;
-    font-size: 6mm;
-}
+
+
 
