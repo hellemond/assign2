@@ -17,6 +17,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: #faf4ed;
+    
 }
 
 
@@ -77,25 +78,25 @@ div.slideopen{
     border-radius: 40px;
 }
 
+.orgenmancer{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
 
 section{
     background: #f2e9de;
     grid-column: 1;
     grid-row: 2;
     text-align: center;
-    margin-right: 30px;  
 }
 ul.notes{
     display: inline-block;
-}
-.notes > li {
-    margin-top: 10px;
 }
 
 
 label,
 textarea {
-    font-size: .8rem;
+    font-size: 16px;
     letter-spacing: 1px;
     grid-row: 3;
 }
@@ -109,7 +110,7 @@ textarea {
 
 label {
     display: block;
-    margin-bottom: 10px;
+
 }
 
 
