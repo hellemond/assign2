@@ -73,18 +73,19 @@ footer{
     
 }
 
-.theme{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 5px 5px;
+.buttstyle{
+    margin: 10px 2px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 10px;
+    font-size: 1rem;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    color: #191724;
+    border-radius: 10px;
+    background-color: #d7827e;
+    font-style: italic;
 }
+
 
 div.slideopen{
     grid-column: 2;
@@ -123,6 +124,7 @@ textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
+    background-color: #e0def4;
 }
 
 label {
