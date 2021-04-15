@@ -67,6 +67,10 @@ footer{
 
 /* Start of changes from index to note */
 
+.dark{
+    background-color: #6e6a86;
+}
+
 .lightordark{
     grid-row: 2;
     grid-column: 3;

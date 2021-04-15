@@ -9,3 +9,20 @@ changes background-colour of body tag */
 -if cancel, remove note and dont send to notes area */
 
 /* notes area should be an array that saved notes get pushed into. */
+
+const cccockkkanfball = document.getElementById('darkbutton');
+
+function changetheme(){
+    var check = document.querySelector('.theme').innerHTML;
+    if (check === 'Dark') {
+    document.querySelector('.buttstyle').style.color = '#31748f';
+    
+    document.querySelector('.dark').innerHTML = "Light";
+    }
+    if (check === 'Light') {        
+    document.querySelector('.dark').innerHTML = "Dark";
+    }
+}
+
+
+cccockkkanfball.addEventListener("click", changetheme);
